@@ -18,19 +18,29 @@ const Header = () => {
                 <div className="nav-menu">
                     <ul className="nav-list grid">
                         <li className="nav-item">
-                            <a href={"#home"} className="nav-link"><UilEstate />Home</a>
+                            <a href={"#home"} className="nav-link active-link"><UilEstate />
+                                <div className="nav-icon">Home</div>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href={"#about"} className="nav-link"><UilUser />About</a>
+                            <a href={"#about"} className="nav-link"><UilUser />
+                                <p className="nav-icon">About</p>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href={"#skills"} className="nav-link"><UilFile />Skills</a>
+                            <a href={"#skills"} className="nav-link"><UilFile />
+                                <p className="nav-icon">Skills</p>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href={"#services"} className="nav-link"><UilBriefcaseAlt />Services</a>
+                            <a href={"#services"} className="nav-link"><UilBriefcaseAlt />
+                                <p className="nav-icon">Services</p>
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href={"#contact"} className="nav-link"><UilMessage />Contact</a>
+                            <a href={"#contact"} className="nav-link"><UilMessage />
+                                <p className="nav-icon">Contact</p>
+                            </a>
                         </li>
                     </ul>
                     <i className="nav-close"><UilTimes /></i>

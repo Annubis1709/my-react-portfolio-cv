@@ -154,20 +154,28 @@ img {
 
 /* ====>>>>> BREAKPOINTS <<<<<==== */
 /* For large devices */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
+    .container {
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
 
 }
 
 /* For medium devices */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 }
 
 /* For small devices */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 
 }
 
 /* For extra small devices */
-@media (min-width: 350px) {
+@media (max-width: 350px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }
