@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import './header.css';
 import {
     UilApps,
@@ -8,14 +9,16 @@ import {
     UilMessage,
     UilTimes,
     UilUser
-} from '@iconscout/react-unicons'
+} from '@iconscout/react-unicons';
+
 
 const Header = () => {
+    const [Toggle, setToggle] = useState(false);
     return (
         <header className="header">
             <nav className=" nav container">
                 <a href="index.html" className="nav-logo">Edier Sanchez Sanchez</a>
-                <div className="nav-menu">
+                <div className={ Toggle? "nav-menu show-menu" : "nav-menu" }>
                     <ul className="nav-list grid">
                         <li className="nav-item">
                             <a href={"#home"} className="nav-link active-link"><UilEstate />
@@ -43,9 +46,9 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                    <i className="nav-close"><UilTimes /></i>
+                    <i className="nav-close" onClick={ () => setToggle(!Toggle) }><UilTimes /></i>
                 </div>
-                <div className="nav-toggle">
+                <div className="nav-toggle" onClick={ () => setToggle(!Toggle) }>
                     <i className="nav-open"><UilApps /></i>
                 </div>
             </nav>

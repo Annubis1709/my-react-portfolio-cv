@@ -154,7 +154,7 @@ img {
 
 /* ====>>>>> BREAKPOINTS <<<<<==== */
 /* For large devices */
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
