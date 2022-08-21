@@ -1,3 +1,4 @@
+import './home.css';
 import Social from "./Social.jsx";
 import Data from "./Data.jsx";
 
