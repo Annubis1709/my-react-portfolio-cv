@@ -57,8 +57,7 @@ const Data = () => {
             </h1>
             <h3 className="home-subtitle">Junior Front-End Developer</h3>
             <p className="home-description">
-                With a passion for creating beautiful and user-friendly websites.
-                I have a strong background in HTML, CSS, JavaScript, Python, ReactJS and a basic understanding of user interface and user experience (UI/UX) design.
+                Junior FrontEnd Developer with a background in Mechanical Engineering
             </p>
             <a href={"#contact"} className="button button-flex">
                 Drop a email
